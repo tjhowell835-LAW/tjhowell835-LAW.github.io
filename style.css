@@ -1,0 +1,198 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', serif;
+  margin-bottom: 1rem;
+  color: #0a4461;
+}
+
+/* Header */
+.site-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0a4461;
+}
+
+.site-nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #0a4461;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.site-nav a:hover {
+  color: #3c88c6;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(10, 68, 97, 0.6);
+  color: #fff;
+  padding: 2rem 3rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.hero-overlay h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-overlay p {
+  font-size: 1.1rem;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 0;
+}
+
+.alt-bg {
+  background-color: #f7fbfd;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Amenities Grid */
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.amenity h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #0a4461;
+}
+
+.amenity ul {
+  list-style: disc;
+  margin-left: 1.2rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Gallery */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.gallery-grid figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-grid figcaption {
+  background: #0a4461;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Booking Section */
+.btn {
+  display: inline-block;
+  background-color: #0a4461;
+  color: #fff;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background-color: #3c88c6;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #0a4461;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.site-footer p {
+  font-size: 0.9rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .hero-overlay h2 {
+    font-size: 2rem;
+  }
+  .hero-overlay p {
+    font-size: 1rem;
+  }
+  .site-nav a {
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bixby Cove Cottage – Lake Eufaula</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Bixby Cove Cottage</h1>
+            <nav class="site-nav">
+                <a href="#about">About</a>
+                <a href="#amenities">Amenities</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#book">Book</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/65403daa-e6b5-4903-8764-2b30fbe26d1d.avif" alt="Front exterior of Bixby Cove Cottage" class="hero-img">
+        <div class="hero-overlay">
+            <h2>Your lakeside getaway</h2>
+            <p>Relax on Lake Eufaula with modern comforts and rustic charm</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About this space</h2>
+            <p>Bixby Cove Cottage is a spacious 1,200&nbsp;sq&nbsp;ft lake‑front retreat on Lake Eufaula.  Four cozy bedrooms and two full bathrooms provide space for families and groups.  The open concept living area flows into a fully remodeled kitchen stocked with cooking essentials, while the large dining table converts to a pool and ping‑pong table for evening fun.  After a day on the lake, unwind on the extended front porch swing or gather around the fire pit under the stars.  Self check‑in and a quiet lakeside location make your stay easy and peaceful.  Read on to learn about the sleeping arrangements, amenities and what makes our home unique.</p>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="section alt-bg">
+        <div class="container">
+            <h2>Amenities &amp; Features</h2>
+            <div class="amenities-grid">
+                <div class="amenity">
+                    <h3>Bedrooms</h3>
+                    <ul>
+                        <li>Master suite with queen bed and private bathroom</li>
+                        <li>Room with two full beds (great for kids)</li>
+                        <li>Sage room with queen bed and pack‑&‑play</li>
+                        <li>Ocean room with queen bed and roll‑away bed</li>
+                        <li>Couch in the living room converts to a full‑size bed</li>
+                    </ul>
+                </div>
+                <div class="amenity">
+                    <h3>Living &amp; Dining</h3>
+                    <ul>
+                        <li>Open‑concept living room with comfortable seating</li>
+                        <li>Large dining table that converts to pool and ping‑pong table</li>
+                        <li>Smart TV and Wi‑Fi for streaming and work</li>
+                        <li>Games and puzzles for rainy days</li>
+                    </ul>
+                </div>
+                <div class="amenity">
+                    <h3>Kitchen</h3>
+                    <ul>
+                        <li>Fully remodeled kitchen with full‑size appliances</li>
+                        <li>Coffee bar with drip brewer and Keurig</li>
+                        <li>Cooking oils, spices and condiments provided</li>
+                        <li>Washer &amp; dryer in adjacent laundry area</li>
+                    </ul>
+                </div>
+                <div class="amenity">
+                    <h3>Outdoor Fun</h3>
+                    <ul>
+                        <li>Extended front porch with swing and rockers</li>
+                        <li>Private fire pit area with seating</li>
+                        <li>Flat top grill for barbecues</li>
+                        <li>Large front yard with putting green, corn hole and light‑up ball toss</li>
+                        <li>Two adult bikes and two kayaks for exploring Lake Eufaula</li>
+                    </ul>
+                </div>
+                <div class="amenity">
+                    <h3>What we love</h3>
+                    <ul>
+                        <li>Right on the lake – launch kayaks steps from the home</li>
+                        <li>Peaceful location with lots of wildlife</li>
+                        <li>Self check‑in with keypad – arrive any time</li>
+                        <li>Family‑friendly features like pack‑&‑play and games</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-grid">
+                <figure>
+                    <img src="images/feca059c-ecf5-45ee-8f07-88422c3c80fa.avif" alt="Open concept living area of Bixby Cove Cottage showing the kitchen and sitting area">
+                    <figcaption>Spacious living &amp; dining area</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/7788d284-fdd6-49e9-a0cb-07af0d8c7ecf.avif" alt="Outdoor fire pit area with chairs and glowing lights at Bixby Cove Cottage">
+                    <figcaption>Cozy fire pit &amp; patio</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="book" class="section alt-bg">
+        <div class="container">
+            <h2>Ready to book?</h2>
+            <p>We’d love to host you at Bixby Cove Cottage.  Our home offers the perfect balance of relaxation and recreation on Lake Eufaula.  Use the button below to check availability, see more photos and reserve your stay through Airbnb.</p>
+            <a class="btn" href="https://www.airbnb.com/rooms/1161061717154969132" target="_blank" rel="noopener">View on Airbnb</a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Bixby Cove Cottage. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Insert current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
