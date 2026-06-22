@@ -55,9 +55,8 @@ h1, h2, h3 {
   top: 72%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgba(10, 68, 97, 0.85);
-  padding: 1rem;
-  border-radius: 8px;
+  background: transparent;
+  padding: 0;
 }
 
 .hero-logo {
