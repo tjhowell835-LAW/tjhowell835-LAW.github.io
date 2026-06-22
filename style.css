@@ -79,7 +79,7 @@ h1, h2, h3 {
 
 .hero-overlay {
   position: absolute;
-  top: 70%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(10, 68, 97, 0.85);
