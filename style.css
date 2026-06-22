@@ -50,21 +50,7 @@ h1, h2, h3 {
   font-weight: 600;
   color: #0a4461;
 }
-.hero-overlay {
-  position: absolute;
-  top: 72%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: transparent;
-  padding: 0;
-}
 
-.hero-logo {
-  width: 100%;
-  max-width: 900px;
-  height: auto;
-  display: block;
-}
 .site-nav a {
   margin-left: 1.5rem;
   text-decoration: none;
@@ -91,6 +77,22 @@ h1, h2, h3 {
   display: block;
 }
 
+.hero-overlay {
+  position: absolute;
+  top: 72%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  max-width: 900px;
+  background: transparent;
+  padding: 0;
+}
+
+.hero-logo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 
 /* Sections */
@@ -180,17 +182,7 @@ h1, h2, h3 {
 }
 
 /* Responsive tweaks */
-@media (max-width: 600px) {
-  .hero-overlay h2 {
-    font-size: 2rem;
-  }
-  .hero-overlay p {
-    font-size: 1rem;
-  }
-  .site-nav a {
-    margin-left: 1rem;
-  }
-}
+
 @media (max-width: 768px) {
   .site-header .container {
     flex-direction: column;
@@ -216,13 +208,7 @@ h1, h2, h3 {
     padding: 1rem;
   }
 
-  .hero-overlay h2 {
-    font-size: 2rem;
-  }
-
-  .hero-overlay p {
-    font-size: 1rem;
-  }
+  
 
   .gallery-buttons button {
     width: 90%;
