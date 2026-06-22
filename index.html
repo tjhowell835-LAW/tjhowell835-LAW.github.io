@@ -26,8 +26,8 @@
     <section class="hero">
         <img src="images/65403daa-e6b5-4903-8764-2b30fbe26d1d.avif" alt="Front exterior of Bixby Cove Cottage" class="hero-img">
         <div class="hero-overlay">
-            <h2>Your lakeside getaway</h2>
-            <p>Relax on Lake Eufaula with modern comforts and rustic charm</p>
+        <h2>Bixby Cove Cottage</h2>
+<p>Your Lake Eufaula Home Away From Home</p>    
         </div>
     </section>
 
@@ -48,7 +48,7 @@
                     <h3>Bedrooms</h3>
                     <ul>
                         <li>Master suite with queen bed and private bathroom</li>
-                        <li>Room with two full beds (great for kids)</li>
+                        <li>Anchor Room with two twin beds, great for kids or extra guests</li>
                         <li>Sage room with queen bed and pack‑&‑play</li>
                         <li>Ocean room with queen bed and roll‑away bed</li>
                         <li>Couch in the living room converts to a full‑size bed</li>
@@ -97,20 +97,120 @@
 
     <!-- Gallery Section -->
     <section id="gallery" class="section">
-        <div class="container">
-            <h2>Photo Gallery</h2>
-            <div class="gallery-grid">
-                <figure>
-                    <img src="images/feca059c-ecf5-45ee-8f07-88422c3c80fa.avif" alt="Open concept living area of Bixby Cove Cottage showing the kitchen and sitting area">
-                    <figcaption>Spacious living &amp; dining area</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/7788d284-fdd6-49e9-a0cb-07af0d8c7ecf.avif" alt="Outdoor fire pit area with chairs and glowing lights at Bixby Cove Cottage">
-                    <figcaption>Cozy fire pit &amp; patio</figcaption>
-                </figure>
-            </div>
-        </div>
-    </section>
+  <div class="container">
+    <h2>Photo Gallery</h2>
+    <p class="gallery-intro">
+      Take a look inside Bixby Cove Cottage and see why it is a comfortable Lake Eufaula getaway for families, couples, and groups.
+    </p>
+
+    <div class="gallery-buttons">
+      <button onclick="filterGallery('all')">All</button>
+      <button onclick="filterGallery('overview')">Property Overview</button>
+      <button onclick="filterGallery('outdoor')">Outdoor Living</button>
+      <button onclick="filterGallery('bedrooms')">Bedrooms</button>
+      <button onclick="filterGallery('bathrooms')">Bathrooms</button>
+    </div>
+
+    <div class="gallery-grid">
+
+      <figure class="gallery-item overview">
+        <img src="images/aerial view.jpg" alt="Aerial view of Bixby Cove Cottage">
+        <figcaption>Bird’s-eye view of the property, circular drive, and outdoor gathering space.</figcaption>
+      </figure>
+
+      <figure class="gallery-item overview">
+        <img src="images/layout of house.jpg" alt="Floor plan layout of Bixby Cove Cottage">
+        <figcaption>Single-level layout with 4 bedrooms, 2 bathrooms, and open gathering areas.</figcaption>
+      </figure>
+
+      <figure class="gallery-item outdoor">
+        <img src="images/front porch lounge area with firepit.jpg" alt="Covered front porch lounge area">
+        <figcaption>Covered porch seating with a fire table for morning coffee or evening conversations.</figcaption>
+      </figure>
+
+      <figure class="gallery-item outdoor">
+        <img src="images/morning view patio.jpg" alt="Morning view from patio">
+        <figcaption>Peaceful morning views under mature shade trees near Lake Eufaula.</figcaption>
+      </figure>
+
+      <figure class="gallery-item outdoor">
+        <img src="images/front porch chairs.jpg" alt="Wooden rocking chair on porch">
+        <figcaption>Handcrafted rocking chair for relaxing after a day on the lake.</figcaption>
+      </figure>
+
+      <figure class="gallery-item outdoor">
+        <img src="images/front porch chairs 2.jpg" alt="Two person rocker on front porch">
+        <figcaption>Cozy two-person rocker for sunsets, coffee, and quiet evenings.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/coral room.jpg" alt="Coral Suite bedroom">
+        <figcaption>Coral Suite with queen bed, coastal décor, and private ensuite bathroom.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/coral room 2.jpg" alt="Coral Suite additional view">
+        <figcaption>Warm and comfortable primary bedroom designed for rest and privacy.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/coral room 3.jpg" alt="Coral Suite wide view">
+        <figcaption>Spacious suite with relaxing lake-inspired design and room to unpack.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/ocean room.jpg" alt="Ocean Room bedroom">
+        <figcaption>Ocean Room with queen bed, nautical accents, and a calm retreat feel.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/ocean room 2.jpg" alt="Ocean Room additional view">
+        <figcaption>Comfortable guest room with natural light and relaxing coastal touches.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/ocean room 3.jpg" alt="Ocean Room side view">
+        <figcaption>Perfect space to unwind after boating, fishing, or exploring the lake.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/ocean room 4.jpg" alt="Ocean Room wide view">
+        <figcaption>Inviting queen bedroom with easy access to the main living areas.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/anchor room.jpg" alt="Anchor Room twin beds">
+        <figcaption>Anchor Room with twin beds, ideal for kids, friends, or fishing buddies.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bedrooms">
+        <img src="images/sage room 3.jpg" alt="Sage Room bedroom">
+        <figcaption>Sage Room offers a quiet and comfortable place to recharge.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bathrooms">
+        <img src="images/bathroom.jpg" alt="Renovated bathroom">
+        <figcaption>Fully renovated bathroom with modern fixtures and clean finishes.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bathrooms">
+        <img src="images/bathroom 2.jpg" alt="Bathroom shower">
+        <figcaption>Updated shower with tile surround and rainfall-style shower system.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bathrooms">
+        <img src="images/bathroom 3.jpg" alt="Bathroom vanity and shower">
+        <figcaption>Bright bathroom space with modern lighting, vanity, and fresh design.</figcaption>
+      </figure>
+
+      <figure class="gallery-item bathrooms">
+        <img src="images/Coral bathroom.jpg" alt="Coral Suite private bathroom">
+        <figcaption>Private ensuite bathroom for added comfort and convenience.</figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
 
     <!-- Booking Section -->
     <section id="book" class="section alt-bg">
@@ -131,5 +231,19 @@
         // Insert current year in footer
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
+   <script>
+  function filterGallery(category) {
+    const items = document.querySelectorAll('.gallery-item');
+
+    items.forEach(item => {
+      if (category === 'all' || item.classList.contains(category)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+</script>     
 </body>
+</html>
 </html>
