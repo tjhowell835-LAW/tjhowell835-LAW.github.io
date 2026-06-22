@@ -52,22 +52,19 @@ h1, h2, h3 {
 }
 .hero-overlay {
   position: absolute;
-  top: 68%;
+  top: 72%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(10, 68, 97, 0.85);
-  color: #ffffff;
-  padding: 1.5rem 2rem;
-  text-align: center;
+  padding: 1rem;
   border-radius: 8px;
 }
 
 .hero-logo {
-  width: 90%;
-  max-width: 650px;
+  width: 100%;
+  max-width: 900px;
   height: auto;
   display: block;
-  margin: 0 auto;
 }
 .site-nav a {
   margin-left: 1.5rem;
